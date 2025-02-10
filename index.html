@@ -5,55 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turismo</title>
     <style>
-        
+    nav{
+        padding: 10px;
+        background-color: brown;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        }
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+    nav a:hover{
+        color: yellow;
+        text-shadow: 3px 3px 3px black;
+    }
+    .titulo{
+        text-align: center;
+        color: brown;
+        padding-bottom: 10px;
+   
+    }
+    section#destino{
+    background-color: blanchedalmond;
+}
+.destino{
+    width: 30%;
+    
+    text-align: center;
+
+}
+.destino img{
+    width: 90%;
+}
+#contenedordestino{
+   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
     </style>
 </head>
 <body>
     <body>
+        <header>
+            
+        </header>
         <nav>
-                <a href="#">Inicio</a>
+                <a href="#.odestino">Inicio</a>
+                <a href="#">Sobre Nosotros</a>
                 <a href="#">Contacto</a>
                 <a href="#">Destinos</a>
-                <a href="#">Sobre Nosotros</a>
+               
                
                 
            
         </nav>
-  
-    <section >
+        <section>
 
-        </section> 
+        </section>
+  
+    <section id="destino" >
+
+        <h2 class="titulo">Posibles destinos</h2>
+   <div id="contenedordestino">
+    <div class="destino">
+        <img src="images/descarga (1).jpeg" alt="">
+        <p>Rutas rurales</p>
+    </div>
+    <div class="destino">
+        <img src="images/descarga (2).jpeg" alt="">
+        <p>Lagunas</p>
+    </div>
+    <div class="destino">
+        <img src="images/descarga (3).jpeg" alt="">
+        <p>Pueblos con encanto</p>
+    </div>
+    <div class="destino">
+        <img src="images/descarga (4).jpeg" alt="">
+        <p>Molinos</p>
+    </div>
+        <div class="destino">
+            <img src="images/descarga.jpeg" alt="">
+            <p>Castillos</p>
+        </div>
+        <div class="destino">
+            <img src="images/images.jpeg" alt="">
+            <p>Pueblos con historia</p>
+        </div>
+    </div>
     
-    <section >
-        <h2 ></h2>
-       <div >
-        <div >
-            <img src="" alt="">
-            <p>Sevilla</p>
-        </div>
-        <div >
-            <img src="" alt="">
-            <p>Madrid</p>
-        </div>
-        <div >
-            <img src="" alt="">
-            <p>Barcelona</p>
-        </div>
-        <div >
-            <img src="" alt="">
-            <p>Asturias</p>
-        </div>
-            <div >
-                <img src="" alt="">
-                <p>Cadid</p>
-            </div>
-            <div >
-                <img src="" alt="">
-                <p>Valencia</p>
-            </div>
-        </div>
-        
-       </div>
+   </div>
+    
+    </section>
+       
        
     
     <footer>
